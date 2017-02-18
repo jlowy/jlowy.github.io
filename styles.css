@@ -1,0 +1,56 @@
+footer {
+display: inline-block;
+font-size: small;
+font-family: arial;
+font-style: italic;
+text-align: center;
+bottom: 0;
+position: absolute;
+}
+
+a:link {
+color: black;
+}
+
+a:visited {
+color: blue;
+}
+
+img {
+padding-left: 280px;
+}
+
+h1 {
+padding-left: 340px;
+}
+
+ul#wrestling-styles {
+list-style-type: square;
+margin-left: 50px;
+}
+
+table {
+display: inline-block;
+margin-left: 31px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 3px;
+padding-right: 3px;
+border-color: #2F4F4F;
+border-width: 2px;
+border-left-width: 30px;
+}
+
+div.background {
+background-image: url("background-2.jpg");
+}
+
+p {
+font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		font-size: xx-large;
+	}
+}
